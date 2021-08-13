@@ -1,0 +1,31 @@
+<div class="container-fluid" id="contenedorBusqueda">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <img src="assets/images/tiendas_max_logo.png" alt="..." id="logoMax">
+        <form class="d-flex">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownCategoria" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorias
+              </button>
+            </li>
+          </ul>
+          <input (input)="actCantidad({event : $event})" class="form-control m-2" type="text" placeholder="Escribe una cantidad y mira el carrito" aria-label="Search" id="busqueda">
+          <button id="btnBusqueda" class="btn btn-secondary btn-lg" >
+            <ion-icon name="search" id="Lupa"></ion-icon>
+          </button>
+        </form>
+        <div class="container" id="contenedorCarrito">
+          <button type="button" class="btn btn-danger">
+            <ion-icon name="basket"></ion-icon>
+          </button>
+          <div class="container" id="contenedorDatosCarrito">
+            <h5>Carrito De Compras</h5>
+            <p>{{cantidadArticulos}} articulos {{totalPago}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>

@@ -1,0 +1,44 @@
+#contenedorBusqueda{
+  width:1250px;
+  margin-left: -1px;
+  background-color: white;
+}
+
+#logoMax{
+  width: 250px;
+}
+
+#busqueda{
+  width: 400px;
+}
+
+#btnBusqueda{
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: -9px;
+}
+
+#Lupa{
+  margin-left: -8px;
+}
+
+#dropdownCategoria{
+  margin-top: 10px;
+}
+
+#contenedorCarrito{
+  height: 40px;
+  width: 100px;
+  margin-left: 25px;
+  padding-right: 25px;
+  margin-top: -10px;
+}
+#contenedorDatosCarrito{
+  height: 200px;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: -70px;
+}
+
+
