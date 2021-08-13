@@ -7,7 +7,9 @@ import { IonicModule } from '@ionic/angular';
 import { NavbarMenuComponent } from './components/navbar-menu/navbar-menu.component';
 import { BusquedaMenuComponent } from './components/busqueda-menu/busqueda-menu.component';
 import { NavbarUsuarioComponent } from './components/navbar-usuario/navbar-usuario.component';
+import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { CartasImagenesComponent } from './components/cartas-imagenes/cartas-imagenes.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     NavbarMenuComponent,
     BusquedaMenuComponent,
     NavbarUsuarioComponent,
-    CarouselComponent
+    SideBarComponent,
+    CarouselComponent,
+    CartasImagenesComponent
   ],
   imports: [
     BrowserModule,
